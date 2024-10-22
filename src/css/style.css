@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+ @font-face {  
+    font-family: "Archangelsk";
+    src: local("Archangelsk Regular"),
+     url(../fonts/Archangelsk.woff) format("woff"),
+     url(../fonts/Archangelsk.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+  --color_black: #000;
+  --col_y:#f8f200;
+  --col_w: #FFF;
+  --col_w_2: #E6E6E6;
+  --col_grey: #777;
+  
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;  
+}
+
+  body {
+    color: var(--color_black);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.89;  
+    font-weight: 400;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;   
+    text-decoration: none; 
+  } 
+
+  li {
+    list-style-type: none;
+  }
+
+
+  .button {
+    background: none;
+    border: none;
+  }
+
+  .another-color-words {
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
